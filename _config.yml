@@ -1,0 +1,22 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+title:               Mike Loll
+tagline:             'A collection of random tech related things.'
+url:                 http://mikeloll.github.io
+baseurl:             ''
+paginate:            5
+gems:                [ 'jekyll-paginate' ]
+
+# About/contact
+author:
+  name:              Mike Loll
+  url:               https://github.com/mikeloll
+  email:             mike.loll@gmail.com
+
+# Custom vars
+version:             1.0.0
